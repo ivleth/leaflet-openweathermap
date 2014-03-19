@@ -982,6 +982,79 @@ L.OWM.Utils = {
 			, id906: 'Hagel' // 'Hail'
 		},
 
+		nl: {
+			owmlinktitle: 'Details OpenWeatherMap'
+			, temperature: 'Temperatuur'
+			, temp_minmax: 'Temp. min/max'
+			, wind: 'Wind'
+			, gust: 'Windvlaag'
+			, windforce: 'Windsterkte'
+			, direction: 'Windrichting'
+			, rain_1h: 'Regen'
+			, humidity: 'Luchtvochtigheid'
+			, pressure: 'luchtdruk'
+			
+			// Weercondities, zie http://openweathermap.org/wiki/API/Weather_Condition_Codes
+			, id200: 'Onweer met lichte regen' // 'Thunderstorm with Light Rain'
+			, id201: 'Onweer met regen' // 'Thunderstorm with Rain'
+			, id202: 'Onweer met zware regenval' // 'Thunderstorm with Heavy Rain'
+			, id210: 'Lichte Onweer' // 'Light Thunderstorm'
+			, id211: 'Matige Onweer' // 'Thunderstorm'
+			, id212: 'Zware Onweer' // 'Heavy Thunderstorm'
+			// , id221: 'Ragged Thunderstorm'
+			// , id230: 'Thunderstorm with Light Drizzle'
+			// , id231: 'Thunderstorm with Drizzle'
+			// , id232: 'Thunderstorm with Heavy Drizzle'
+			
+			, id300: 'lichte motregen' // 'Light Intensity Drizzle'
+			, id301: 'motregen' // 'Drizzle'
+			, id302: 'sterke motregen' // 'Heavy Intensity Drizzle'
+			// , id310: 'Light Intensity Drizzle Rain'
+			// , id311: 'Drizzle Rain'
+			// , id312: 'Heavy Intensity Drizzle Rain'
+			// , id321: 'Shower Drizzle'
+			
+			, id500: 'Lichte neerslag' // 'Light Rain'
+			, id501: 'Matige neerslag' // 'Moderate Rain'
+			, id502: 'Zware neerslag' // 'Heavy Intensity Rain'
+			, id503: 'Zeer zware neerslag' // 'Very Heavy Rain'
+			, id504: 'Extreme neerslag' // 'Extreme Rain'
+			, id511: 'Aanvriezende regen' // 'Freezing Rain'
+			, id520: 'Lichte buien' // 'Light Intensity Shower Rain'
+			, id521: 'Buien' // 'Shower Rain'
+			, id522: 'Hevige buien' // 'Heavy Intensity Shower Rain'
+			
+			, id600: 'Lichte sneeuwval' // 'Light Snow'
+			, id601: 'Matige sneeuwval' // 'Snow'
+			, id602: 'Zware sneeuwval' // 'Heavy Snow'
+			, id611: 'ijzel' // 'Sleet'
+			, id621: 'sneeuwbui' // 'Shower Snow'
+			, id622: 'Zware sneeuwbui' // 'Heavy Shower Snow'
+			
+			, id701: 'Mist' // 'Mist'
+			, id711: 'Rook' // 'Smoke'
+			, id721: 'Nevel' // 'Haze'
+			, id731: 'Zand-/stofstorm' // 'Sand/Dust Whirls'
+			, id741: 'Mist' // 'Fog'
+			, id751: 'Zand' // 'Sand'
+			
+			, id800: 'geen bewolking' // 'Sky is Clear'
+			, id800d: 'zonnig' // 'Sky is Clear' at day
+			, id800n: 'helder' // 'Sky is Clear' at night
+			, id801: 'licht bewolkt' // 'Few Clouds'
+			, id802: 'bewolkt' // 'Scattered Clouds'
+			, id803: 'sterk bewolkt' // 'Broken Clouds'
+			, id804: 'Overdekt' // 'Overcast Clouds'
+			
+			, id900: 'Tornado' // 'Tornado'
+			, id901: 'Tropische Storm' // 'Tropical Storm'
+			, id902: 'Orkaan' // 'Hurricane'
+			, id903: 'Koud' // 'Cold'
+			, id904: 'Heet' // 'Hot'
+			, id905: 'Winderig' // 'Windy'
+			, id906: 'Hagel' // 'Hail'
+			},
+
 		ru: {
 			owmlinktitle: 'Информация в OpenWeatherMap'
 			, temperature: 'Температура'
